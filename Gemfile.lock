@@ -1,0 +1,29 @@
+PATH
+  remote: .
+  specs:
+    postype_rails (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (2.6.3)
+    net-http (0.2.0)
+      net-protocol
+      uri
+    net-protocol (0.2.1)
+      timeout
+    rake (13.1.0)
+    timeout (0.4.0)
+    uri (0.11.0)
+
+PLATFORMS
+  arm64-darwin-20
+
+DEPENDENCIES
+  json
+  net-http
+  postype_rails!
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.4.10
